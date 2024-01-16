@@ -256,3 +256,43 @@ nav ul li a:hover{
     grid-column: 6/13;
     grid-row: 3/4;
 }
+/* Choose Us section style here */
+.choose_us_box_container{
+ display: flex;
+ align-items: center;
+ gap: 24px;
+ justify-content: space-between;
+ /* flex-wrap: wrap; */
+}
+.choose_us_box_container:last-child{
+    margin: 24px auto;
+    justify-content: center;
+}
+.choose_us_box_container .choose_box{
+    border-radius: 16px;
+    padding: 2rem;
+    flex-basis: 48%;
+}
+.choose_us_box_container .box_item_1{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.choose_us_box_container .box_item_2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose_us_box_container .box_item_3{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+} 
+.choose_box_title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 16px 0 32px;
+}
+.choose_box_description{
+    color: var(--gay-text-two);
+    font-size: 1rem;
+    font-weight: 400;
+}

@@ -62,9 +62,6 @@
     }
  }
  @media screen and (max-width: 600px){
-    nav{
-       
-    }
     nav ul{
         width: 60%;
     }
@@ -81,6 +78,12 @@
     .destination_description{ 
         max-width: 309px;
         margin: 16px auto;
+    }
+    .grid-items > h2{
+        font-weight: 700;
+    }
+    .choose_us_box_container{
+        flex-direction: column;
     }
     main section{
         margin-top: 1.5rem;
