@@ -77,6 +77,15 @@
     .deals .booking_price{
         margin: 0.75rem 0 1rem;
     }
+    /* Newsletter section style */
+    .newsletter_container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .newsletter_item_1,
+    .newsletter_item_2{
+        width: 100%;
+    }
  }
  @media screen and (max-width: 768px) {
     .dstn_image_container{

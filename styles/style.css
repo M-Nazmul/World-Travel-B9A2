@@ -368,6 +368,8 @@ nav ul li a:hover{
 .discoount-container .all_pkg_btn{
     text-align: center;
     margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
 /* Perfect place section style here */
 .Perfect_place_description{
@@ -380,3 +382,68 @@ nav ul li a:hover{
     margin-top: 1rem;
 }
 /* Newsletter section style here */
+.newsletter_container{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsletter_item_1{
+    width: 40%;
+    padding: 40px;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+}
+.newsletter_main_title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.newsletter_description{
+
+}
+.newsletter_item_1 input{
+    display: block;
+    width: 100%;
+}
+.newsletter_item_1 input[type='text'],
+.newsletter_item_1 input[type='email']{
+    padding: 1rem 1.125rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.newsletter_item_1 input[type='submit']{
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+.newsletter_item_2{
+    width: 55%;
+    position: relative;
+}
+.newsletter_item_2 > img{
+    width: 100%;
+}
+.save_up_to{
+    position: absolute;
+    top: 180px;
+    right: 10px;
+    padding: 35px 44px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    transform: rotate(-19.628deg);
+}
+.save_up_to .travel{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.save_up_to .save_up{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
