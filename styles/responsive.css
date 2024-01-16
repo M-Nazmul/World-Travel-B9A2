@@ -123,10 +123,31 @@
     .choose_us_box_container{
         flex-direction: column;
     }
+
     
+}
+@media screen and (max-width: 692px) {
+    .save_up_to{
+        top: 140px;
+        right: 10px;
+        padding: 17px 20px;
+    }
 }
 @media screen and (max-width: 481px){
     .booking_item{
         left: 30px;
+    }
+    .save_up_to{
+        top: 75px;
+        right: 10px;
+        padding: 17px 15px;
+    }
+    .save_up_to .travel{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .save_up_to .save_up{
+        font-size: 1.5rem;
+        font-weight: 600;
     }
 }
