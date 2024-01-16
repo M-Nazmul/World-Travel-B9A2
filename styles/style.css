@@ -74,3 +74,70 @@ nav ul li .active,
 nav ul li a:hover{
     color: var(--primary-color);
 }
+/* container */
+.container{
+    width: 81.25%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* Banner section */
+.banner_container{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Banner.png');
+    background-size: cover;
+}
+.banner_title{
+    color: #FFF;
+    font-size: 4rem;
+}
+.banner_description{
+    color: #FFF;
+    max-width: 676px;
+    text-align: center;
+    margin: 24px 0 48px;
+    padding: 0 1rem;
+}
+.banner_items{
+    padding: 16px;
+    gap: 24px;
+    display: inline-flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.input_box{
+    position: relative;
+    /* border: 1px solid red; */
+    z-index: 1;
+    display: ;
+}
+.input_box i{
+    color: #131318B2;
+    position: absolute;
+    top: 1rem;
+    right: 10px;
+    padding: 0 1rem;
+    background-color: #FFF;
+    /* background-color: #111; */
+}
+.banner_items input{
+    padding: 16px 15px;
+    border-radius: 8px;
+    border: none;
+    outline-color: var(--primary-color);
+    /* border: 1px solid salmon; */
+}
+
+
+
+.find_now{
+    margin-right: 8px;
+}
+.header_btn_find_now{ 
+    width: 100%;  
+}
