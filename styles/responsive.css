@@ -48,4 +48,24 @@
      .banner_description{
          margin: 8px 0 32px;
      }
+     .popular_tours_container{
+        flex-direction: column;
+     }
+     .popular_tours_img > img{
+        margin-top: 32px;
+     }
  }
+ @media screen and (max-width: 600px){
+    nav{
+       
+    }
+    nav ul{
+        width: 60%;
+    }
+    nav .logo_container .logo_text{
+        font-size: 1.7rem;
+    }
+    .banner_title{
+        font-size: 1.8rem;
+    }
+}
