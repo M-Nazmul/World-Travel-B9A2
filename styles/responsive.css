@@ -55,6 +55,12 @@
         margin-top: 32px;
      }
  }
+ @media screen and (max-width: 768px) {
+    .dstn_image_container{
+        display: flex;
+        flex-direction: column;
+    }
+ }
  @media screen and (max-width: 600px){
     nav{
        
@@ -68,8 +74,13 @@
     .banner_title{
         font-size: 1.8rem;
     }
-    .popular_tours_title{
-        font-size: 20px;
+    .popular_tours_title,
+    .primary_title{
+        font-size: 1.25rem;
+    }
+    .destination_description{ 
+        max-width: 309px;
+        margin: 16px auto;
     }
     main section{
         margin-top: 1.5rem;
