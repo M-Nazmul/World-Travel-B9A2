@@ -296,3 +296,34 @@ nav ul li a:hover{
     font-size: 1rem;
     font-weight: 400;
 }
+/* Discount section style here */
+.deals{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+}
+.deals_items_1{
+    background: url('../Images/Group 39.png'), lightgray 50% / cover no-repeat;
+}
+.deals_items_2{
+    background: url('../Images/Group 40.png'), lightgray 50% / cover no-repeat;
+}
+.deals_items_3{
+    background: url('../Images/Group 39.png'), lightgray 50% / cover no-repeat;
+}
+.booking_item{
+    position: absolute;
+    top: 56px;
+    right: 56px;
+    max-width: 579px;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.booking_header{
+    display: flex;
+}
