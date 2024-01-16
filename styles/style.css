@@ -365,3 +365,18 @@ nav ul li a:hover{
     font-size: 1.25rem;
     font-weight: 800;
 }
+.discoount-container .all_pkg_btn{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+/* Perfect place section style here */
+.Perfect_place_description{
+    color: var(--gay-text-two);
+}
+.Perfect_place_list ul li{
+    color: #131318;
+}
+.Perfect_place .see_more{
+    margin-top: 1rem;
+}
+/* Newsletter section style here */
